@@ -11,3 +11,14 @@ $int_num = intval($num_float); //intval() is function returns the integer value 
 $digit_in_int = strlen($int_num); //strlen() is function returns the length of a string
 
 echo "The Number Of Digits Is = " . $digit_in_int; //print  the number of digits 
+
+//or
+$n = 3459888;
+    $count = 0;
+    while ($n != 0)
+    {
+        $n = round($n / 10);
+        ++$count;
+    }
+
+echo "Number of digits : " . $count;
