@@ -1,20 +1,7 @@
 <?php
 /* 
 8- We have a 2D array for instructors (outer is numeric, inner is associative):
-$instructors = [
-    'kareem fouad' => [
-        'job' => 'backend developer',
-        'track' => 'php',
-    ],
-    'ahmed bahnasy' => [
-        'job' => 'frontend developer',
-        'track' => 'angular',
-    ],
-    'ahmed nasr' => [
-        'job' => 'backend developer',
-        'track' => '.net',
-    ],
-];
+
 Write a script to display instructors data in a dynamic HTML nested list:
  
 •kareem fouad
